@@ -8,13 +8,13 @@
     <style name="Theme.Tummy" parent="Base.Theme.Tummy" />
 
     <style name="Theme.Tummy.Fullscreen" parent="Theme.Tummy">
-        <item name="android:actionBarStyle">@style/Widget.Theme.Tummy.ActionBar.Fullscreen</item>
-        <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@null</item>
+
+        <item name="android:statusBarColor" tools:targetApi="1">@color/orange</item>
+        <item name="android:windowBackground">@color/orange</item>
     </style>
 
     <style name="ThemeOverlay.Tummy.FullscreenContainer" parent="">
-        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
-        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+        <item name="fullscreenBackgroundColor">@color/orange</item>
+        <item name="fullscreenTextColor">@color/orange</item>
     </style>
 </resources>
